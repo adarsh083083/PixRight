@@ -29,13 +29,13 @@ export const styles = StyleSheet.create({
     width: 180,
   },
   ideasStyle: {
-    height: 268,
+    height: 270,
     width: 180,
   },
   cameraContainer: {
     position: "absolute",
     top: 365,
-    right: 78,
+    right: 82,
   },
   cameraStyle: {
     height: 220,

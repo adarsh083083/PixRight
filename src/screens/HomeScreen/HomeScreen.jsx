@@ -2,7 +2,6 @@ import {
   View,
   TouchableHighlight,
   Alert,
-  StyleSheet,
   Image,
   StatusBar,
 } from "react-native";

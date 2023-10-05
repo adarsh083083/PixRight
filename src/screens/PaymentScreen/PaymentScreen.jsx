@@ -5,8 +5,10 @@ import { IMAGE } from "../../constants/Images";
 import CustomHeader from "../../components/HeaderAtom/HeaderAtom";
 import AppButton from "../../components/ButtonAtom/ButtonAtom";
 import styles from "./PaymentScreenStyle";
+import { useNavigation } from "@react-navigation/native";
 
 const PaymentScreen = () => {
+  const navigation = useNavigation();
   return (
     <BackgroundImage source={IMAGE.BLACK_IMAGE}>
       <StatusBar
@@ -17,7 +19,11 @@ const PaymentScreen = () => {
         backgroundImage={IMAGE.STATUS_BAR_BACKGROUND}
       />
       <View style={styles.headerStyle}>
-        <CustomHeader backImage={IMAGE.BACK_ARROW} title={"PIXY RIGHT"} />
+        <CustomHeader
+          backImage={IMAGE.BACK_ARROW}
+          title={"PIXY RIGHT"}
+          onBackPress={() => navigation.goBack()}
+        />
       </View>
       <View style={styles.textContainer}>
         <Text style={styles.titleStyle}>Free Member</Text>
