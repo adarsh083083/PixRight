@@ -1,5 +1,5 @@
-import React from 'react';
-import { ImageBackground, StyleSheet } from 'react-native';
+import React from "react";
+import { ImageBackground, StyleSheet } from "react-native";
 
 const BackgroundImage = ({ source, children }) => {
   return (
@@ -12,7 +12,8 @@ const BackgroundImage = ({ source, children }) => {
 const styles = StyleSheet.create({
   backgroundImage: {
     flex: 1,
-    resizeMode: 'cover',
+    resizeMode: "cover",
+    paddingBottom: 20,
   },
 });
 

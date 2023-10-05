@@ -68,3 +68,58 @@ export const InputData = [
     btn: IMAGE.RIGHT_CHECK,
   },
 ];
+
+export const Logo = [
+  {
+    id: "0",
+    logo: IMAGE.BACK_ARROW,
+    title: "Write logo",
+    btn: IMAGE.RIGHT_CHECK,
+  },
+];
+export const Business = [
+  {
+    id: "0",
+    logo: IMAGE.BACK_ARROW,
+    title: "Write Email id",
+    btn: IMAGE.RIGHT_CHECK,
+  },
+  {
+    id: "1",
+    logo: IMAGE.BACK_ARROW,
+    title: "Write Website url",
+    btn: IMAGE.RIGHT_CHECK,
+  },
+  {
+    id: "1",
+    logo: IMAGE.BACK_ARROW,
+    title: "Write Mobile number",
+    btn: IMAGE.RIGHT_CHECK,
+  },
+];
+export const Branding = [
+  {
+    id: "0",
+    logo: IMAGE.BACK_ARROW,
+    title: "Write Username",
+    btn: IMAGE.RIGHT_CHECK,
+  },
+  {
+    id: "1",
+    logo: IMAGE.BACK_ARROW,
+    title: "Write name",
+    btn: IMAGE.RIGHT_CHECK,
+  },
+  {
+    id: "2",
+    logo: IMAGE.BACK_ARROW,
+    title: "Write text",
+    btn: IMAGE.RIGHT_CHECK,
+  },
+  {
+    id: "3",
+    logo: IMAGE.BACK_ARROW,
+    title: "Write signature",
+    btn: IMAGE.RIGHT_CHECK,
+  },
+];
